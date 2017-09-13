@@ -1,0 +1,76 @@
+$greyBackground: #2D3339;
+$greenBackground: #35B55C;
+$blueBackground: #3F8ABF;
+
+body {
+	text-align: center;
+	color: #fff;
+	font-family: 'Varela Round';
+}
+
+.app {
+	background: $greyBackground;
+	width: 500px;
+	height: 500px;
+	margin: -20px auto 0;
+
+	&.break {
+		background: $blueBackground;
+	}
+
+	&.complete {
+		background: $greenBackground;
+	}
+
+}
+
+.container {
+	width: 350px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 31px;
+	padding: 40px 0 10px;
+}
+
+.time {
+	background: #202428;
+	margin: 0 auto 15px;
+	font-size: 72px;
+	line-height: 80px;
+	padding-top: 5px;
+	border-radius: 8px;
+	letter-spacing: 10px;
+}
+
+button {
+	border-radius: 6px;
+	border: 2px solid #fff;
+	font-family: 'Varela Round';
+	font-size: 20px;
+	background: none;
+	color: #fff;
+	text-decoration: none;
+	width: 49%;
+	cursor: pointer;
+	padding: 10px 20px;
+}
+
+form {
+	width: 300px;
+	margin-bottom: 25px;
+
+	textarea {
+		border-radius: 6px;
+		border: 2px solid #fff;
+		font-family: 'Varela Round';
+		font-size: 20px;
+		padding: 15px 20px;
+		width: 100%;
+		margin-top: 40px;
+		font-size: 20px;
+		text-align: left;
+	}
+
+}
