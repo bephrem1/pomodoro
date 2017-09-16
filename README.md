@@ -1,7 +1,7 @@
 # pomodoro
 Pomodoro Timer Made Using JavaFX (TeamTreehouse Project Walkthrough)
 
-Instructor/Code: Craig Dennis
+Instructor/Code: Craig Dennis </br>
 Designer: Susan
 
 Current Status: Will continue to make out of project modifications such as suggesting
